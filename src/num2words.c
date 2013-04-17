@@ -2,50 +2,50 @@
 
 static const char* const ONES[] = {
   "",
-  "one",
-  "two",
-  "three",
-  "four",
-  "five",
-  "six",
-  "seven",
-  "eight",
-  "nine"
+  "ett",
+  "två",
+  "tre",
+  "fyra",
+  "fem",
+  "sex",
+  "sju",
+  "åtta",
+  "nio"
 };
 
 static const char* const TEENS[] ={
   "",
-  "eleven",
-  "twelve",
-  "thirteen",
-  "four",
-  "fifteen",
-  "six",
-  "seven",
-  "eight",
-  "nine"
+  "elva",
+  "tolv",
+  "tretton",
+  "fjorton",
+  "fem",
+  "sex",
+  "sjutton",
+  "arton",
+  "nitton"
 };
 
 static const char* const TENS[] = {
   "",
-  "ten",
-  "twenty",
-  "thirty",
-  "forty",
-  "fifty",
-  "sixty",
-  "seventy",
-  "eighty",
-  "ninety"
+  "tio",
+  "tjugo",
+  "trettio",
+  "fyrtio",
+  "femtio",
+  "sextio",
+  "sjuttio",
+  "åttio",
+  "nittio"
 };
 
-static const char* STR_OH_CLOCK = "o'clock";
-static const char* STR_NOON = "noon";
+static const char* STR_OH_CLOCK = "prick";
+static const char* STR_NOON = "middag";
 static const char* STR_MID = "mid";
-static const char* STR_NIGHT = "night";
-static const char* STR_TEEN = "teen";
+static const char* STR_NIGHT = "midnatt";
+static const char* STR_TEEN = "ton";
 #if !DAY
-static const char* STR_OH = "oh";
+static const char* STR_OH = "noll";
 #endif
 
 static size_t append_number(char* words, int num) {
